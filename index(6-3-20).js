@@ -1,16 +1,20 @@
-//=================Task 1 ========================
+// In this file we covered the topics related to "alert,Prompt,Math Fimiliar 
+// & Unfimiliar Operators, if conditions"
+
+
+
+//1
 
 // var a = 10;
-
 // document.write("<h2>" + "Result" + "</h2>");
 // document.write("The value of document a is " + a + "<br>");
 // document.write(
 //   "......................................................" + "<br>"
 // );
-
 // document.write("The value of  ++a is " + ++a + "<br>");
 
-//=================Task 2 ========================
+
+//2
 
 // var a = 2;
 // var b = 1;
@@ -20,7 +24,8 @@
 // console.log(b);
 // console.log(result);
 
-//=================Task 3 ========================
+
+//3
 
 // var userInput = +prompt("Enter table number", 5);
 // var count = 0;
@@ -35,7 +40,8 @@
 // document.write(userInput + " X " + ++count + " = " + userInput * count + "<br>");
 // document.write(userInput + " X " + ++count + " = " + userInput * count + "<br>");
 
-//=================Task 4 ========================
+
+//4
 
 // document.write("Subject total marks obtained marks Percentage" + "<br>");
 // var totalMarksEach = 100;
@@ -51,7 +57,8 @@
 // document.write(subject2 +" " +totalMarksEach +" " +subject2Marks +" " +(totalMarksEach / 100) * subject2Marks+ "%" + "<br>");
 // document.write(subject3 +" " +totalMarksEach +" " +subject3Marks +" " +(totalMarksEach / 100) * subject3Marks+ "%" + "<br>");
 
-// //=================Task 5 ========================
+
+//5
 
 // var city = prompt("Enter City Name");
 
@@ -59,7 +66,8 @@
 //   alert("“Welcome to city of lights”");
 // }
 
-// //=================Task 6 ========================
+
+//6
 
 // var color = prompt("Enter color of road traffic signal");
 
@@ -75,7 +83,8 @@
 //   alert("Move now");
 // }
 
-// //=================Task 7 ========================
+
+//7
 
 // var remainingFuel = +prompt("Enter remaining fuel in car");
 
@@ -83,7 +92,8 @@
 //   alert("Please refill the fuel in your car");
 // }
 
-// //=================Task 8========================
+
+//8
 
 // var a = 4;
 
@@ -110,11 +120,15 @@
 //   alert("condition 4 is true");
 // }
 
-// if ("caq" < "cat") {
-//   alert("car is smaller than cat");
+
+//9
+
+// if ("a" < "b") {
+//   alert("A is smaller than B");
 // }
 
-// //=================Task 9========================
+
+//10
 
 // var num = +prompt("Enter Your Number");
 
@@ -127,3 +141,31 @@
 // } else {
 //   alert("Odd Number");
 // }
+
+
+//11
+
+// var myNum = 10 
+// alert(++myNum) 
+// // alert(myNum)
+
+// myNum++ (post increment)
+// ++myNum (pre increment)
+
+// var myNum = 10 
+// alert(myNum++) //alert 10 ===> myNum = 11
+// alert(myNum) // alert 11
+
+
+
+// var myNum = 10 
+// alert(++myNum) 
+
+// var postDec = 10 
+// alert(postDec--)
+// alert(postDec)
+
+// var preDec = 10 
+// alert(--preDec)
+// alert(preDec)
+
